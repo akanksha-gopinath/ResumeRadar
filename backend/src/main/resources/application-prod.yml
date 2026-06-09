@@ -1,0 +1,19 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  datasource:
+    url: jdbc:h2:file:/app/data/resumeradar
+  h2:
+    console:
+      enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  security:
+    oauth2:
+      client:
+        registration:
+          linkedin:
+            redirect-uri: "${RAILWAY_PUBLIC_DOMAIN:http://localhost:8080}/api/auth/linkedin/callback"

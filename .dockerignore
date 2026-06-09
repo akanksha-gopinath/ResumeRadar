@@ -1,0 +1,6 @@
+**/node_modules
+**/dist
+**/.gradle
+**/build
+**/.DS_Store
+**/data

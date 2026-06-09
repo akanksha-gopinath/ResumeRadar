@@ -1,0 +1,30 @@
+# Backend
+backend/build/
+backend/.gradle/
+backend/data/
+backend/bin/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# H2 database files
+*.db
+*.mv.db
+*.trace.db
